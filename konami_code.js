@@ -24,5 +24,7 @@ function onKeyDownHandler(e) {
   }
 }
 function init() {
-  onKeyDownHandler();
+  document.body.addEventListener("keydown", (event) => {
+onKeyDownHandler();
+  }
 }
