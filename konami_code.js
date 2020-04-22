@@ -14,7 +14,6 @@ let index = 0;
 function onKeyDownHandler(e) {
   if (!e) e=window.event;
 
-
   const key = e.key;
   if (key === codes[index]) {
     index++;
